@@ -70,9 +70,9 @@ for (let i = 0; i < posts.length; i++) {
                 <h3>
                     ${posts[i]['author']['name']}
                 </h3>
-                <h5>
+                <p>
                     ${posts[i]['created']}
-                </h5>
+                </p>
             </div>
         </div>
         <div class= "content-container">
@@ -81,11 +81,11 @@ for (let i = 0; i < posts.length; i++) {
                     ${posts[i]['content']}
                 </p>
             </div>
-            <div>
+            <div class= "img-container">
                 <img src= "${posts[i]['media']}" alt="">
             </div>
         </div>
-        <div class= "footer-contaier">
+        <div class= "footer-container">
             <div>
                 <a href="#" data-postid="1">
                     <i class="like-button__icon fas fa-thumbs-up" aria-hidden="true"></i>
