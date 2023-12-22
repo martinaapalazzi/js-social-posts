@@ -68,6 +68,11 @@ img {
     justify-content: space-around;
 }
 
+.like-button-clicked {
+    color: #0CD977;
+    cursor: default;
+}
+
 
 
 
